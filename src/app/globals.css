@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.righteous {
+  font-family: var(--font-righteous);
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.card-shadow {
+  box-shadow: 7px 7px 0 rgb(0 0 0 / 1);
+  border: 3px solid #000;
+  transition: all 0.15s linear;
+}
+
+.card-shadow:hover {
+  box-shadow: 5px 5px 0 rgb(0 0 0 / 1);
+}
+
+.button-shadow {
+  box-shadow: 5px 5px 0 rgb(0 0 0 / 1);
+  border: 3px solid #000;
+  transition: all 0.15s linear;
+}
+
+.button-shadow:hover {
+  box-shadow: 3px 3px 0 rgb(0 0 0 / 1);
+}
+
+.tag-shadow {
+  box-shadow: 3px 3px 0 rgb(0 0 0 / 1);
+  border: 2px solid #000;
+  transition: all 0.15s linear;
+}
+
+.tag-shadow:hover {
+  box-shadow: 2px 2px 0 rgb(0 0 0 / 1);
+}
